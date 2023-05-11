@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d5e1ef;
+}
+
+.body-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 640px;
+    background-color: rgb(255, 255, 255);
+    border: 2px white solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px  rgba(128, 128, 128, 0.238);
+}
+
+.image-container {
+    width: 100%;
+    padding: 1px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-container {
+    padding: 10px 10px 20px 10px;
+}
+
+.title {
+    font-size: 28px;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.sub-text {
+    color: rgba(82, 82, 82, 0.565);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+}
